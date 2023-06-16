@@ -7,8 +7,5 @@
         <div id="example">
             <Example/>
         </div>
-        @foreach ($lista as $key => $value)
-            <p>{{ $key }} - {{ $value }}</p>
-        @endforeach
     </div>
 @endsection

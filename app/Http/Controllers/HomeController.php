@@ -9,6 +9,13 @@ class HomeController extends Controller
 {
     public function index()
     {
+        // enviar a lista para a view home
+        return view('home');
+    }
+
+    public function api()
+    {
+        // enviar a lista para a view home
         // criar uma lista simples para enviar a view home
         $lista = [
             'nome1' => 'João',
@@ -22,8 +29,9 @@ class HomeController extends Controller
             'nome9' => 'Marcos',
             'nome10' => 'Fernanda',
         ];
-        
         // enviar a lista para a view home
-        return view('home', compact('lista'));
+
+        return response()->json($lista);
+
     }
 }
