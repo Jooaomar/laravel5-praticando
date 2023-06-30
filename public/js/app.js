@@ -65770,11 +65770,14 @@ var Example = /*#__PURE__*/function (_Component) {
         className: "card-body"
       }, "I'm an example component!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "card-body"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, Object.entries(data).map(function (_ref) {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        "class": "list-group list-group-flush"
+      }, Object.entries(data).map(function (_ref) {
         var _ref2 = _slicedToArray(_ref, 2),
           key = _ref2[0],
           value = _ref2[1];
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+          "class": "list-group-item",
           key: key
         }, key, ": ", value);
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {

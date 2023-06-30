@@ -2,7 +2,7 @@
     <head>
         <title>App Name - @yield('title')</title>
         
-        <!-- Scripts -->
+        <!-- Scripts React -->
         <script src="{{ asset('js/app.js') }}" defer></script>
         
         <!-- Styles -->

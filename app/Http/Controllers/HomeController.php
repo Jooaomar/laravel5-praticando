@@ -28,6 +28,7 @@ class HomeController extends Controller
             'nome8' => 'Mariana',
             'nome9' => 'Marcos',
             'nome10' => 'Fernanda',
+            'nome11' => 'Djaina',
         ];
         // enviar a lista para a view home
 

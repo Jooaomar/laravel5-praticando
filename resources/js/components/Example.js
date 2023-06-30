@@ -41,9 +41,9 @@ export default class Example extends Component {
 
                             <div className="card-body">I'm an example component!</div>
                             <div className='card-body'>
-                                <ul>
+                                <ul class="list-group list-group-flush">
                                     {Object.entries(data).map(([key, value]) => (
-                                            <li key={key}>{key}: {value}</li>
+                                            <li class="list-group-item" key={key}>{key}: {value}</li>
                                         ))}
                                 </ul>
                             </div>
